@@ -1,3 +1,4 @@
 finance_nlp/
 dataset/
 __pycache__/
+finbert_results.csv
