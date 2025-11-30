@@ -2,3 +2,7 @@ finance_nlp/
 dataset/
 __pycache__/
 finbert_results.csv
+finbert_finetuned_results.csv
+rag_financial_sentiment_results.csv
+finbert_finetuned
+rag_checkpoint
