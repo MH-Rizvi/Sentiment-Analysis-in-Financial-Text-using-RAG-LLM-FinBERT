@@ -5,4 +5,5 @@ finbert_results.csv
 finbert_finetuned_results.csv
 rag_financial_sentiment_results.csv
 finbert_finetuned
-rag_checkpoint
+rag_checkpoints
+all_sentiment_results.csv
