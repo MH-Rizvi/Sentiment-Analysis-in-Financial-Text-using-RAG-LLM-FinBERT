@@ -1,9 +1,32 @@
+# Python virtual environments
 finance_nlp/
-dataset/
+.venv/
+venv/
+
+# Python cache
 __pycache__/
-finbert_results.csv
-finbert_finetuned_results.csv
-rag_financial_sentiment_results.csv
-finbert_finetuned
-rag_checkpoints
-all_sentiment_results.csv
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dataset
+dataset/
+
+# Large model checkpoint (host separately on Hugging Face Hub)
+finbert_finetuned/
+
+# Temporary files and logs
+logs/
+runs/
+wandb/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
